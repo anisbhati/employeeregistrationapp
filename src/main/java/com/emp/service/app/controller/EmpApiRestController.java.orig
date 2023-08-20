@@ -9,7 +9,7 @@ public class EmpApiRestController {
     
 	@GetMapping("/anis/{a}/{b}")
 	public String getname(@PathVariable int a,@PathVariable int b) {
-
+<<<<<<< HEAD
 		//comment
 		return "add ===  "+(a+b);
 	}
@@ -17,9 +17,9 @@ public class EmpApiRestController {
 	@GetMapping("/aniss/{a}/{b}")
 	public String getnamee(@PathVariable int a,@PathVariable int b) {
 		//comment
-
+=======
 		//dev comment
-
+>>>>>>> dev
 		return "add ===  "+(a+b);
 	}
 }
